@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const UserIconWithName = (props) => {
-  const { image, name } = props;
+  const { user } = props;
+  const { image, name } = user;
+  // console.log(user)
   return (
     <Scontainer>
       <SImage height={160} width={160} src={image} alt="dog" />
       <SName>{name}</SName>
-      <SEdit>編集</SEdit>
+      {/* <SEdit>編集</SEdit> */}
     </Scontainer>
   );
 };

@@ -3,10 +3,12 @@ import styled from "styled-components";
 
 export const UserCard = (props) => {
   const { user } = props;
+  console.log(user);
   return (
     <SCard>
-      <UserIconWithName user={user.name} image={user.image} />
+      <UserIconWithName user={user} />
       <SDl>
+        <dt>Mail</dt>
         <dd>{user.email}</dd>
         <dt>TEL</dt>
         <dd>{user.phone}</dd>
