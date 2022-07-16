@@ -1,4 +1,4 @@
-import { PrimaryButton } from "./components/atoms/PrimaryButton";
+import { PrimaryButton } from "./components/atoms/button/PrimaryButton";
 import "./styles.css";
 
 export default function App() {
